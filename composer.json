@@ -3,6 +3,14 @@
     "description": "User can add easily crud operation",
     "type": "package",
     "license": "MIT",
+    "keywords": [
+        "shafiul naeem",
+        "crud",
+        "CRUD",
+        "CRUD operation",
+        "CRUD Operation"
+    ],
+    "homepage": "https://github.com/ShafiulNaeem/crud-operation",
     "autoload": {
         "psr-4": {
             "Shafiulnaeem\\CrudOperation\\": "src/"
