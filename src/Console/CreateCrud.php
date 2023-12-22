@@ -141,8 +141,9 @@ class CreateCrud extends Command
     }
     private function createRoute($name)
     {
+        $resource = strtolower($name);
         $controller = '\\App\Http\Controllers\\'.ucfirst($name).'Controller';
-        $routes = "Route::resource('{$name}',{$controller}::class);";
+        $routes = "Route::resource('{$resource}',{$controller}::class);";
         // Append the generated routes to the web.php file
         $webPhpFilePath = base_path('routes/web.php');
         file_put_contents($webPhpFilePath, $routes, FILE_APPEND);
