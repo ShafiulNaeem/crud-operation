@@ -1,0 +1,37 @@
+{
+    "name": "shafiulnaeem/crud-operation",
+    "description": "User can add easily crud operation",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shafiulnaeem\\CrudOperation\\": "src/"
+        },
+        "files": [
+            "helper/helper.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "ShafiulNaeem",
+            "email": "shafiulnaeemrifat@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "scripts": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shafiulnaeem\\CrudOperation\\PackageServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^10.26"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.12"
+    }
+}
