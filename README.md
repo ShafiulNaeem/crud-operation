@@ -26,7 +26,7 @@ Welcome to the documentation for ```CRUD Operation``` , a powerful CRUD (Create,
       ```
         php artisan add:crud User name-string-required,email-string-required,password-string-required,age-integer-nullable
       ```
-      - This example creates CRUD operations for a ```User``` model with columns ```name```, ```email```, ```password```, ```and``` age. Column types and validation rules are specified for each column.
+      - This example creates CRUD operations for a ```User``` model with columns ```name```, ```email```, ```password```, and ```age```. Column types and validation rules are specified for each column.
       - **Generated Files:** After running the command, package will generate the following files in your Laravel project:
         1. Model file ``app/Models/{YourModel}.php``
         2. Migration file ``database/migrations/{timestamp}_create_{your_model_pluralized}_table.php``
